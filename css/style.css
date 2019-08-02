@@ -1,0 +1,81 @@
+.rating {
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+ul.rating {
+    display: inline-block;
+}
+.rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size:20px;
+}
+.rating .filled {
+    color: orangered;
+}
+.clear{
+  margin-top:20px;
+}
+.outerMainDiv{
+    margin-left: 10%;
+}
+.productImage{
+    text-align: center;
+}
+.productImage img{
+    max-width: 80%;
+}
+.componentDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80;
+    margin: 0 auto;
+}
+.productDiv{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.addToCart-Button{
+    margin-bottom: 5px;
+}
+.productDescription{
+    width: 80%;
+    font-family: corisandebold;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starRating{
+    
+    background: url("images/spriteIconStar.jpg") no-repeat fixed center;
+    width: 40%;
+    height: 40px;
+}
+.itemsCartDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cartProductDiv{
+    display: flex;
+}
+.cartProductDiv img{
+    max-width: 20%;
+}
